@@ -2,8 +2,8 @@
 
 from distutils.core import setup
 
-setup(name="sqlike",
-      version="2.0.0",
+setup(name="django-sqlike",
+      version="1.0.0",
       description="",
       packages=["sqlike"],
       author="Iury O. G. Figueiredo",
@@ -12,6 +12,7 @@ setup(name="sqlike",
       download_url='',
       keywords=[],
       classifiers=[])
+
 
 
 

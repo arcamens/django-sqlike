@@ -52,4 +52,8 @@ git tag -a v2.0.0 -m 'Running on django 2.'
 git push origin : v2.0.0
 
 ##############################################################################
+# Upload the package to pypi.
+python setup.py sdist register upload
+rm -fr dist
+
 
